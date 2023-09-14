@@ -20,7 +20,7 @@ The keyvalues can be written to disk using `SaveToFile`. These will be written t
 
 Iterating keys can be done using the following loop:	
 ```js
-for (local dat = m_Sub; dat; dat = dat.m_Peer)
+for (local dat = kv.m_Sub; dat; dat = dat.m_Peer)
 ```
 
 # Example
